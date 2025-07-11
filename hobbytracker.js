@@ -36,3 +36,7 @@ Suggestions:
 1. I suggest renaming the function longSessions to filterLongSessions so it is easier to understand than just longSessions
 and also the purpose of the function is to filter only the sessions that are longer than minminutes
 */
+
+
+//New test
+console.log("Focused sessions:", countMood(hobbyLog, "focused"));
