@@ -30,3 +30,9 @@ console.log("Total time spent:", totalTime(hobbyLog), "minutes"); //calculates 1
 console.log("Unique hobbies:", uniqueHobbies(hobbyLog)); //hobbies from the lines 2-6 ('drawing', 'reading', etc)
 console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30)); //Wed (45) and Fri (35)
 console.log("Nu	mber of relaxed sessions:", countMood(hobbyLog, "relaxed")); //1 since Tuesday is relaxed. 
+
+/* 
+Suggestions:
+1. I suggest renaming the function longSessions to filterLongSessions so it is easier to understand than just longSessions
+and also the purpose of the function is to filter only the sessions that are longer than minminutes
+*/
